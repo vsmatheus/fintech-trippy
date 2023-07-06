@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    
+}
+div h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/* img { */
+    /* width: 80%; */
+    /* border-radius: 10px 80px 10px 80px;  cada px para um canto */
+    /* filter: brightness(120%) ; */
+    /* filter: opacity(50%); */
+    /* filter: saturate(40%); */
+    /* filter: drop-shadow(10px 30px 10px #5a5a5a); */
+    /* filter: grayscale(70%); */
+    
+/* } */
+/* img:hover {
+    filter: opacity(100%); */
+/* } */
+div p {
+    font-size: 18px;
+    margin: 50px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div { 
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: left;
+    background-image: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0,.3)), url(../imagens/pexels-supreet-8060364.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 90%;
+    height: 500px;
+    background-color:#ccc;
+    overflow: auto;
+    margin: 20px auto;
+    border: 2px inset #3f3f3f;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 5px #ccc;
+    border-radius: 10px;
+}
+div a {
+    margin: 30px;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    background-color: #ccc;
+    color: #000000;
+    padding: 8px 30px;
+    font-weight: 600;  
+    border-radius: 7px;  
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div a:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+/* div:hover{
+    background-image: url(../imagens/pexels-pixabay-164634.jpg);
+    background-position: 50%;
+} */

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 90%;
+    height: 80px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 10px solid #ff0000;
+}
+#conteudo {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+/* criar classes para serem usadas */
+.bg-green { background-color: chartreuse; }
+.bg-red { background-color: #ff0000;}
+.bg-blue { background-color: blue;}
+
+div#conteudo:hover {
+    background-color: rgb(13, 14, 14);
+    text-align: left;
+    color: #fff;
+}
+div.container:hover {
+    background-color: coral;
+}
+.container:nth-child(2) {
+    background-color: #fff;
+}

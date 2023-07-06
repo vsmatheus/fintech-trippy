@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 2;
+}
+body{
+    text-align: center;
+    background-image: url(../Imagens/trippy/bg_image.jpg);
+}
+div.login {
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color:mediumseagreen ;
+    font-size: 22px;
+    text-align: center;
+    width: max-content;
+    height: auto;
+    margin: 20px auto;
+    border: 2px inset #ffffff;
+    padding: 10px;
+}
+
+div.login h1 {
+    color: #000000; 
+    text-align: center;
+    font-size: 50px;
+}
+
+div.login h2 {
+    color: #000000; 
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+div.login input {
+    font-size: 20px;
+}
+
+.login__input {
+    margin: 0 auto;
+    display: block;
+    
+}
+
+button {
+    font-size: 20px;
+}
+
+img {
+    width: 4%;
+    margin-bottom: -6px;
+}
